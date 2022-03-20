@@ -1,0 +1,89 @@
+BODY {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	color: #280202;
+	background-color: #FFF;
+}
+
+.logo{
+  background-image : url("logo.jpg") ;
+  width : 800;
+  height : 200;
+  position : relative;
+  left : 300;
+}
+.menu{
+   font-family : "Adobe Caslon Pro" ;
+   font-stretch : narrower;
+   font-size : medium;
+   left : 300;
+   width : 800;
+   position : relative;
+   text-decoration : overline;
+   padding-left : 10;
+}
+.tresc{
+   border-width : thin ;
+   border-color : #000000;
+   border-bottom-style : dashed ;
+   border : 2;
+   width : 800;
+   font-family : "@Arial Unicode MS" ;
+   font-style : oblique ;
+   font-variant : small-caps;
+   font-weight : normal;
+   font-stretch : condensed;
+   font-size : small;
+   position : relative;
+   left : 300;
+   padding-left : 10;
+}
+.stopka{
+   background-image : url("s.jpg") ;
+   bottom : 0;
+   width : 600;
+   height : 80;
+   position : relative;
+   text-align : center;
+   left : 400;
+}
+.wiadomosc{
+   width : 400;
+   height : 100;
+   cursor : default ;
+   border-color : #e6e6fa;
+   border-style : dotted ;
+   border : 1;
+   text-align : left;
+   position : relative;
+   overflow: auto;
+   top : 10;
+   
+}
+A:active  {
+
+  font-size : large;
+  text-align : right;
+  text-decoration : underline;
+  text-transform : uppercase;
+}
+    
+A:visited {
+   text-decoration : none;
+   text-transform : uppercase;
+}
+
+A:link    {
+   text-decoration : none;
+   text-transform : uppercase;
+}
+
+A:hover   {
+   text-align : left;
+   text-decoration : underline;
+   text-transform : lowercase;
+   color : #008080;
+}
+#o{
+   font-weight : bold;
+}
